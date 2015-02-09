@@ -1,10 +1,19 @@
 @mixin animation{
-    animation: typewriter 4s steps(44) 1s 1 normal both
-             blinkTextCursor 500ms steps(44) 0 infinite normal;
-  -webkit-animation: typewriter 4s steps(44) 1s 1 normal both,
-                     blinkTextCursor 500ms steps(44) 0 infinite normal;
-  -moz-animation: typewriter 4s steps(44) 1s 1 normal both
-                  blinkTextCursor 500ms steps(44) 0 infinite normal;
-  -o-animation: typewriter 4s steps(44) 1s 1 normal both
-                blinkTextCursor 500ms steps(44) 0 infinite normal;
+    animation: typewriter 4s steps(25) 1s 1 normal both
+             blinkTextCursor 500ms steps(25) 0 infinite normal;
+  -webkit-animation: typewriter 4s steps(25) 1s 1 normal both,
+                     blinkTextCursor 500ms steps(25) 0 infinite normal;
+  -moz-animation: typewriter 4s steps(25) 1s 1 normal both
+                  blinkTextCursor 500ms steps(25) 0 infinite normal;
+  -o-animation: typewriter 4s steps(25) 1s 1 normal both
+                blinkTextCursor 500ms steps(25) 0 infinite normal;
+}
+
+@mixin btn{
+    text-decoration: none;
+    border: 2px solid $white;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: $white;
 }
