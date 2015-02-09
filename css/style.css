@@ -1,0 +1,71 @@
+/* line 1, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+html {
+  min-height: 100%;
+  overflow: hidden; }
+
+/* line 6, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+body {
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Anonymous Pro', monospace;
+  background-color: #191919; }
+
+/* line 14, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 1px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+/* Animation */
+/* line 28, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both blinkTextCursor 500ms steps(44) 0 infinite normal;
+  -webkit-animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) 0 infinite normal;
+  -moz-animation: typewriter 4s steps(44) 1s 1 normal both blinkTextCursor 500ms steps(44) 0 infinite normal;
+  -o-animation: typewriter 4s steps(44) 1s 1 normal both blinkTextCursor 500ms steps(44) 0 infinite normal; }
+
+@keyframes typewriter {
+  /* line 39, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+  from {
+    width: 0; }
+
+  /* line 42, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+  to {
+    width: 24em; } }
+
+@-webkit-keyframes typewriter {
+  /* line 47, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+  from {
+    width: 0; }
+
+  /* line 50, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+  to {
+    width: 24em; } }
+
+@keyframes blinkTextCursor {
+  /* line 72, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+
+  /* line 75, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+  to {
+    border-right-color: transparent; } }
+
+@-webkit-keyframes blinkTextCursor {
+  /* line 80, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+
+  /* line 83, /Users/Jared/Dropbox/School Share/Jared 2014-2015/Winter/Tifany - Web Development/exercise-4-codepen/scss/components/main */
+  to {
+    border-right-color: transparent; } }
