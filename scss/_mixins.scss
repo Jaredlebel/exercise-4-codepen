@@ -1,0 +1,10 @@
+@mixin animation{
+    animation: typewriter 4s steps(44) 1s 1 normal both
+             blinkTextCursor 500ms steps(44) 0 infinite normal;
+  -webkit-animation: typewriter 4s steps(44) 1s 1 normal both,
+                     blinkTextCursor 500ms steps(44) 0 infinite normal;
+  -moz-animation: typewriter 4s steps(44) 1s 1 normal both
+                  blinkTextCursor 500ms steps(44) 0 infinite normal;
+  -o-animation: typewriter 4s steps(44) 1s 1 normal both
+                blinkTextCursor 500ms steps(44) 0 infinite normal;
+}
